@@ -1,0 +1,4 @@
+C:\Users\Lucas\Documents\_SENAI\obj\Debug\net7.0\_SENAI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas\Documents\_SENAI\obj\Debug\net7.0\_SENAI.AssemblyInfoInputs.cache
+C:\Users\Lucas\Documents\_SENAI\obj\Debug\net7.0\_SENAI.AssemblyInfo.cs
+C:\Users\Lucas\Documents\_SENAI\obj\Debug\net7.0\_SENAI.csproj.CoreCompileInputs.cache
