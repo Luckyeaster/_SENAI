@@ -1,18 +1,19 @@
-namespace Atividade
-{
-    class Clientes
-    {
-        public string nome {get; set;}
-        public string endereco {get; set;}
-        public float valor {get; protected set;}
-        public float valor_imposto {get; protected set;}
-        public float total {get; protected set;}
+namespace Atividade{
 
+
+
+     public class Clientes
+    {
+        public string Nome {get; set;}
+        public string Endereco {get; set;}
+        public float Valor {get; protected set;}
+        public float Valor_imposto {get; protected set;}
+        public float Total {get; protected set;}
         public virtual void Pagar_Imposto(float v)
         {
-            this.valor = v;
-            this.valor_imposto = this.valor * 10 / 100;
-            this.total = this.valor + this.valor_imposto;
+            this.Valor = v;
+            this.Valor_imposto = this.Valor * 10 / 100;
+            this.Total = this.Valor + this.Valor_imposto;
         }
     }
 }

@@ -1,9 +1,13 @@
 namespace Atividade
 {
-    class Pessoa_Fisica : class Clientes
+    public class Pessoa_Fisica : Clientes
     {
-        public string cpf{get; set;}
-        public string rg{get; set;}
+        internal readonly object valor_imposto;
+
+        public string Cpf{get; set;}
+        public string Rg{get; set;}
+        public string total {get; internal set;}
+        
     }
 }
    
